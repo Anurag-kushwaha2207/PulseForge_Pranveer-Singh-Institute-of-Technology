@@ -27,7 +27,7 @@ This section explicitly maps the Unstop **Digital Twin Challenge 2026** submissi
 | 7 | **AI/ML Model or Framework Details** | **Yes** | [Section 7: AI/ML Model and Framework Details](#7-aiml-model-and-framework-details) |
 | 8 | **15-20 minute Demo Video (Unlisted YouTube Video)** | **Yes** | [Section 8: Demo Video Link](#8-15-20-minute-demo-video) ([Watch on YouTube](https://youtu.be/E9uWYx6jB10)) |
 | 9 | **Open-source License Details** | **Yes** | [Section 9: Open-Source License](#9-open-source-license-details) |
-| 10 | **Architecture Diagram in PDF/PPT format** | **No** *(Pending File Upload)* | [Section 10: Architecture Diagram (PDF/PPT)](#10-architecture-diagram-in-pdfppt-format) |
+| 10 | **Architecture Diagram in PDF/PPT format** | **Yes** | [Section 10: Architecture Diagram (PDF/PPT)](#10-architecture-diagram-in-pdfppt-format) ([Download PDF](architecture_diagram.pdf)) |
 | 11 | **Presentation in PDF/PPT format** | **No** *(Pending File Upload)* | [Section 11: Project Presentation (PDF/PPT)](#11-presentation-in-pdfppt-format) |
 | 12 | **Public Accessibility Confirmation** | **Yes** | [Section 12: Public Accessibility Confirmation](#12-public-accessibility-confirmation) |
 
@@ -235,10 +235,14 @@ Severe Event             0        2        0            46
 
 ## 10. Architecture Diagram in PDF/PPT Format
 
-- **Status**: **No** *(Pending File Upload)*
-- **Text / Vector Architecture Diagram**: Included directly in [Section 7.1](#71-architecture-overview) and [Section 13](#13-architectural--experimental-visualizations).
-- **PDF / PPT Download Link**: `No`  
-  *(Placeholder: Place `PulseForge_Architecture_Diagram.pdf` or `.pptx` in this repository and link here).*
+- **Status**: **Yes**
+- **Architecture PDF Download**: [Download Architecture Diagram (PDF)](architecture_diagram.pdf)
+- **High-Resolution Image File**: [`architecture_diagram.png`](architecture_diagram.png)
+- **Visual Architecture Preview**:
+
+<p align="center">
+  <img src="architecture_diagram.png" alt="PulseForge System Architecture" width="480" />
+</p>
 
 ---
 
@@ -325,7 +329,9 @@ PulseForge_Pranveer Singh Institute of Technology/
 ├── plot_confusion_matrix.png                    # Confusion matrix visualization
 ├── plot_dataset_sizes.png                       # Client sample distribution plot
 ├── plot_dp_laplace.png                          # Laplace noise density plot
-└── plot_feature_importance.png                  # Global SHAP feature importance plot
+├── plot_feature_importance.png                  # Global SHAP feature importance plot
+├── architecture_diagram.png                     # System architecture diagram image
+└── architecture_diagram.pdf                     # System architecture diagram (PDF format)
 ```
 
 ---
