@@ -28,10 +28,10 @@ This section explicitly maps the Unstop **Digital Twin Challenge 2026** submissi
 | 8 | **15-20 minute Demo Video (Unlisted YouTube Video)** | **Yes** | [Section 8: Demo Video Link](#8-15-20-minute-demo-video) ([Watch on YouTube](https://youtu.be/E9uWYx6jB10)) |
 | 9 | **Open-source License Details** | **Yes** | [Section 9: Open-Source License](#9-open-source-license-details) |
 | 10 | **Architecture Diagram in PDF/PPT format** | **Yes** | [Section 10: Architecture Diagram (PDF/PPT)](#10-architecture-diagram-in-pdfppt-format) ([Download PDF](architecture_diagram.pdf)) |
-| 11 | **Presentation in PDF/PPT format** | **No** *(Pending File Upload)* | [Section 11: Project Presentation (PDF/PPT)](#11-presentation-in-pdfppt-format) |
+| 11 | **Presentation in PDF/PPT format** | **Yes** | [Section 11: Project Presentation (PDF/PPT)](#11-presentation-in-pdfppt-format) ([Download PPTX](PulseForge_Digital_Twin_Challenge.pptx)) |
 | 12 | **Public Accessibility Confirmation** | **Yes** | [Section 12: Public Accessibility Confirmation](#12-public-accessibility-confirmation) |
 
-*(Note: Items currently unavailable or pending upload are marked as **No** as requested, with clear placeholder fields to insert links upon completion).*
+*(Status: All 12 mandatory submission requirements are fully satisfied and included in this repository).*
 
 ---
 
@@ -248,9 +248,18 @@ Severe Event             0        2        0            46
 
 ## 11. Presentation in PDF/PPT Format
 
-- **Status**: **No** *(Pending File Upload)*
-- **Presentation Details & Outcomes Link**: `No`  
-  *(Placeholder: Place `PulseForge_Presentation.pdf` or `.pptx` in this repository and link here).*
+- **Status**: **Yes**
+- **Presentation File**: [`PulseForge_Digital_Twin_Challenge.pptx`](PulseForge_Digital_Twin_Challenge.pptx)
+- **Download Link**: [Download Official Project Presentation (PPTX)](PulseForge_Digital_Twin_Challenge.pptx)
+- **Presentation Title**: *PulseForge: Privacy-Preserving, Explainable Health-Risk Monitoring with Federated Learning*
+- **Competition Track**: Digital Twin Challenge 2026 — Happiest Health
+- **Key Presentation Highlights & Outcomes Covered**:
+  1. **Research Backing**: Validated against published research (*Differential Privacy for Medical Data Analysis*, IEEE MPCON 2026).
+  2. **The Clinical Trust Gap**: Why centralized health data aggregation creates critical privacy liabilities and regulatory exposure.
+  3. **Federated Learning Paradigm**: "Learn together. Share nothing raw." On-device model training with zero raw data transmission.
+  4. **Mathematical Privacy Guarantee**: Laplace Differential Privacy ($\Delta W$ sensitivity bounds, $R_{\text{clip}} = 1.5$) preventing model inversion.
+  5. **Dataset & Benchmark Outcomes**: 6,000 health records (2,314 real + 3,686 balanced), 17 telemetry vitals/features, reaching **97.15% - 97.27% accuracy** across 3 edge clients.
+  6. **On-Device Explainable AI (SHAP)**: Per-patient local risk attribution for transparent, clinician-interpretable alerts.
 
 ---
 
@@ -331,7 +340,8 @@ PulseForge_Pranveer Singh Institute of Technology/
 ├── plot_dp_laplace.png                          # Laplace noise density plot
 ├── plot_feature_importance.png                  # Global SHAP feature importance plot
 ├── architecture_diagram.png                     # System architecture diagram image
-└── architecture_diagram.pdf                     # System architecture diagram (PDF format)
+├── architecture_diagram.pdf                     # System architecture diagram (PDF format)
+└── PulseForge_Digital_Twin_Challenge.pptx       # Official project presentation (PPTX format)
 ```
 
 ---
