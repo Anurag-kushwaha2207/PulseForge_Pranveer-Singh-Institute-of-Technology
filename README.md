@@ -274,7 +274,8 @@ The trained model weights and framework are officially published on Kaggle with 
 - **Status**: **Yes**
 - **In-Browser Presentation (PDF Viewer)**: [View Presentation Directly in Browser (PDF)](PulseForge_Digital_Twin_Challenge.pdf)
 - **PowerPoint Presentation (PPTX)**: [`PulseForge_Digital_Twin_Challenge.pptx`](PulseForge_Digital_Twin_Challenge.pptx)  
-  *(Direct Download Mirror: [Click to Download PPTX](https://github.com/Anurag-kushwaha2207/PulseForge_Pranveer-Singh-Institute-of-Technology/raw/main/PulseForge_Digital_Twin_Challenge.pptx))*
+  *(Direct Download Mirror:[PulseForge_Digital_Twin_Challenge.pptx](https://github.com/user-attachments/files/33803470/PulseForge_Digital_Twin_Challenge.pptx)
+ [Click to Download PPTX](https://github.com/Anurag-kushwaha2207/PulseForge_Pranveer-Singh-Institute-of-Technology/raw/main/PulseForge_Digital_Twin_Challenge.pptx))*
 - **Presentation Title**: *PulseForge: Privacy-Preserving, Explainable Health-Risk Monitoring with Federated Learning*
 - **Competition Track**: Digital Twin Challenge 2026 — Happiest Health
 - **Key Presentation Highlights & Outcomes Covered**:
