@@ -5,10 +5,14 @@
 [![Federated Learning](https://img.shields.io/badge/FL-FedAvg-orange.svg)](#7-aiml-model-and-framework-details)
 [![Differential Privacy](https://img.shields.io/badge/DP-Laplace%20Mechanism-green.svg)](#7-aiml-model-and-framework-details)
 [![Explainable AI](https://img.shields.io/badge/XAI-SHAP-purple.svg)](#14-explainable-ai-with-shap-on-device-xai)
+[![Kaggle Model](https://img.shields.io/badge/Kaggle-Model%20Published-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/models/anuragkushwaha3498/differential-privacy-with-explainable-ai)
+[![DOI](https://img.shields.io/badge/DOI-10.34740%2Fkaggle%2Fm%2F744851-blue.svg)](https://doi.org/10.34740/kaggle/m/744851)
 
 **Digital Twin Challenge 2026 (Happiest Health) — Prototype & Code Submission**  
 - **GitHub Repository**: [https://github.com/Anurag-kushwaha2207/PulseForge_Pranveer-Singh-Institute-of-Technology](https://github.com/Anurag-kushwaha2207/PulseForge_Pranveer-Singh-Institute-of-Technology)  
 - **Demo Video (Unlisted YouTube)**: [https://youtu.be/E9uWYx6jB10](https://youtu.be/E9uWYx6jB10)  
+- **Published Kaggle Model**: [Differential Privacy & Federated Learning with (XAI)](https://www.kaggle.com/models/anuragkushwaha3498/differential-privacy-with-explainable-ai)  
+- **DOI (Digital Object Identifier)**: [https://doi.org/10.34740/kaggle/m/744851](https://doi.org/10.34740/kaggle/m/744851)  
 
 ---
 
@@ -24,11 +28,11 @@ This section explicitly maps the Unstop **Digital Twin Challenge 2026** submissi
 | 4 | **Problem Statement** | **Yes** | [Section 4: Problem Statement](#4-problem-statement) |
 | 5 | **Healthcare Use Case** | **Yes** | [Section 5: Healthcare Digital Twin Use Case](#5-healthcare-digital-twin-use-case) |
 | 6 | **Technical Stack** | **Yes** | [Section 6: Technical Stack](#6-technical-stack) |
-| 7 | **AI/ML Model or Framework Details** | **Yes** | [Section 7: AI/ML Model and Framework Details](#7-aiml-model-and-framework-details) |
+| 7 | **AI/ML Model or Framework Details** | **Yes** | [Section 7: AI/ML Model and Framework Details](#7-aiml-model-and-framework-details) ([Kaggle Model](https://www.kaggle.com/models/anuragkushwaha3498/differential-privacy-with-explainable-ai)) |
 | 8 | **15-20 minute Demo Video (Unlisted YouTube Video)** | **Yes** | [Section 8: Demo Video Link](#8-15-20-minute-demo-video) ([Watch on YouTube](https://youtu.be/E9uWYx6jB10)) |
 | 9 | **Open-source License Details** | **Yes** | [Section 9: Open-Source License](#9-open-source-license-details) |
 | 10 | **Architecture Diagram in PDF/PPT format** | **Yes** | [Section 10: Architecture Diagram (PDF/PPT)](#10-architecture-diagram-in-pdfppt-format) ([Download PDF](architecture_diagram.pdf)) |
-| 11 | **Presentation in PDF/PPT format** | **Yes** | [Section 11: Project Presentation (PDF/PPT)](#11-presentation-in-pdfppt-format) ([Download PPTX](PulseForge_Digital_Twin_Challenge.pptx)) |
+| 11 | **Presentation in PDF/PPT format** | **Yes** | [Section 11: Project Presentation (PDF/PPT)](#11-presentation-in-pdfppt-format) ([View PDF](PulseForge_Digital_Twin_Challenge.pdf) \| [Download PPTX](PulseForge_Digital_Twin_Challenge.pptx)) |
 | 12 | **Public Accessibility Confirmation** | **Yes** | [Section 12: Public Accessibility Confirmation](#12-public-accessibility-confirmation) |
 
 *(Status: All 12 mandatory submission requirements are fully satisfied and included in this repository).*
@@ -206,6 +210,25 @@ Moderate Event           0        0       53             0
 Severe Event             0        2        0            46
 ```
 
+### 7.7 Published Kaggle Model & DOI Citation
+The trained model weights and framework are officially published on Kaggle with a registered Digital Object Identifier (DOI):
+
+- **Kaggle Model**: [Differential Privacy & Federated Learning with (XAI)](https://www.kaggle.com/models/anuragkushwaha3498/differential-privacy-with-explainable-ai)
+- **DOI (Digital Object Identifier)**: [`10.34740/kaggle/m/744851`](https://doi.org/10.34740/kaggle/m/744851)
+- **Publisher**: Kaggle (2026)
+- **Author**: Anurag Singh
+
+```bibtex
+@article{anurag_singh_2026,
+  title={Differential Privacy&Federated Learning_with_(XOI)},
+  url={https://www.kaggle.com/models/anuragkushwaha3498/differential-privacy-with-explainable-ai},
+  DOI={10.34740/KAGGLE/M/744851},
+  publisher={Kaggle},
+  author={Anurag Singh},
+  year={2026}
+}
+```
+
 ---
 
 ## 8. 15-20 Minute Demo Video
@@ -249,8 +272,9 @@ Severe Event             0        2        0            46
 ## 11. Presentation in PDF/PPT Format
 
 - **Status**: **Yes**
-- **Presentation File**: [`PulseForge_Digital_Twin_Challenge.pptx`](PulseForge_Digital_Twin_Challenge.pptx)
-- **Download Link**: [Download Official Project Presentation (PPTX)](PulseForge_Digital_Twin_Challenge.pptx)
+- **In-Browser Presentation (PDF Viewer)**: [View Presentation Directly in Browser (PDF)](PulseForge_Digital_Twin_Challenge.pdf)
+- **PowerPoint Presentation (PPTX)**: [`PulseForge_Digital_Twin_Challenge.pptx`](PulseForge_Digital_Twin_Challenge.pptx)  
+  *(Direct Download Mirror: [Click to Download PPTX](https://github.com/Anurag-kushwaha2207/PulseForge_Pranveer-Singh-Institute-of-Technology/raw/main/PulseForge_Digital_Twin_Challenge.pptx))*
 - **Presentation Title**: *PulseForge: Privacy-Preserving, Explainable Health-Risk Monitoring with Federated Learning*
 - **Competition Track**: Digital Twin Challenge 2026 — Happiest Health
 - **Key Presentation Highlights & Outcomes Covered**:
@@ -341,6 +365,7 @@ PulseForge_Pranveer Singh Institute of Technology/
 ├── plot_feature_importance.png                  # Global SHAP feature importance plot
 ├── architecture_diagram.png                     # System architecture diagram image
 ├── architecture_diagram.pdf                     # System architecture diagram (PDF format)
+├── PulseForge_Digital_Twin_Challenge.pdf        # Official project presentation (PDF in-browser format)
 └── PulseForge_Digital_Twin_Challenge.pptx       # Official project presentation (PPTX format)
 ```
 
